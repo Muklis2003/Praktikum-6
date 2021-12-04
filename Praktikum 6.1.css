@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    min-height: 50%;
+    min-width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 15px;
+    margin: .2em;
+}
+
+.gambar1, .gambar2, .gambar3 {
+    width: 32.2%;
+}
+
+.gambar4, .gambar5, .gambar6, .gambar7, .gambar8 {
+    width: 19%;
+}
